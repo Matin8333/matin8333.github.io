@@ -1,2 +1,2 @@
-# vpn sublink 
-vmess://eyJhZGQiOiJzcjI2LmRhcmtza3lzLnNicyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiJhNTYxZDU2Yi1iMDg5LTQ0NjktOTA2ZC1lYjE5ZjkyOWU4MTEiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiLyIsInBvcnQiOiI4ODgwIiwicHMiOiLwn4er8J+HtyDZh9in24zZvtixINmI24zigIzZvtuM4oCM2KfZhuKAjiAyMjQ3MTQiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
+
+vless://bb7b030f-fd37-488a-be1f-1a26d874cb26@91.99.98.90:8443?mode=auto&path=%2Fxhttp&security=&encryption=none&type=xhttp#D1526X5281-NA
