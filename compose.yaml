@@ -4,8 +4,8 @@ services:
     container_name: windows
     environment:
       VERSION: "11"
-      RAM_SIZE: "9G"
-      DISK_SIZE: "60G"
+      RAM_SIZE: "8G"
+      DISK_SIZE: "55G"
       CPU_CORES: "3"
     devices:
       - /dev/kvm
