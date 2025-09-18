@@ -8,8 +8,8 @@
 </head>
 <body>
     <div id="toast-container"></div>
-    <div class="container-chromeium">
-    Chromeium <button onclick="document.getElementById('chromeium-start').submit()">Start</button>  <button onclick="document.getElementById('chromeium-stop').submit()">Stop</button> <a href="https://literate-space-orbit-69p7q96xwgvw3r5wr-2156.app.github.dev" target="_blank"><button>Open In Browser</button></a>
+    <div class="sspp container-chromeium">
+    Chromeium <button onclick="document.getElementById('chromeium-start').submit()">Start</button>  <button onclick="document.getElementById('chromeium-stop').submit()">Stop</button> <a href="https://legendary-space-garbanzo-pj6q4jv5wvrgcr9x5-2156.app.github.dev" target="_blank"><button>Open In Browser</button></a>
     <div class="container-chromeium hidden-forms">
     <form method="POST" id="chromeium-start" action="/cmd1/chromeium started">
         <input type="hidden" name="path4" value="/">
@@ -22,7 +22,20 @@
         </form>
         </div>
     </div>
+    <div class="sspp container-webtop">
+    KDE <button onclick="document.getElementById('webtop-start').submit()">Start</button>  <button onclick="document.getElementById('webtop-stop').submit()">Stop</button> <a href="https://legendary-space-garbanzo-pj6q4jv5wvrgcr9x5-2345.app.github.dev" target="_blank"><button>Open In Browser</button></a>
+    <div class="container-chromeium hidden-forms">
+    <form method="POST" id="webtop-start" action="/cmd1/webtop started">
+        <input type="hidden" name="path4" value="/">
+        <input type="hidden" name="rsp_path" value='docker run -d --rm --name=code_webtop  --security-opt seccomp=unconfined `#optional`   -e PUID=1000   -e PGID=1000   -e TZ=Asia/Tehran   -e SUBFOLDER=/ `#optional`   -e TITLE=DESKTOP `#optional`   -p 2345:3000   --shm-size="4gb" `#optional`   lscr.io/linuxserver/webtop:arch-kde'>
+</form>
+        <form method="POST" id="webtop-stop" action="/cmd1/webtop stoped">
+            <input type="hidden" name="path4" value="/">
+            <input type="hidden" name="rsp_path" value='docker kill code_webtop'>
 
+        </form>
+        </div>
+    </div>
 </body>
 </html>
 <script src="/static/script.toast.js"></script>
